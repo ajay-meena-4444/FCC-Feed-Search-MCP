@@ -47,4 +47,4 @@ def fcc_secret_message():
     return "Keep exploring! and happy coding!"
 
 if __name__ == "__main__":
-    mcp.run(transport="http", host="localhost", port=8000)
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=8000)
